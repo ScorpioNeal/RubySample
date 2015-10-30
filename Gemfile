@@ -12,6 +12,10 @@ group :production do
 	gem 'pg'
 end
 
+group :test do
+	gem 'factory_girl_rails'
+end
+
 gem 'bootstrap-sass'
 
 gem 'bcrypt-ruby'
